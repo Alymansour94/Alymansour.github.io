@@ -1,3 +1,15 @@
 h1 {
     color: blue;
 }
+
+
+/* visibilty of photo in about */
+#pic {
+    opacity: 0.75;
+}
+
+
+#tanta {
+    color: blue;
+    font-weight: bold;
+}
