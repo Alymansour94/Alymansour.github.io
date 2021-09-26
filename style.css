@@ -1,5 +1,19 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    
+}
+
+
+
 h1 {
+    color:red;
+    font-weight: bold;
+}
+
+h1:hover {
     color: blue;
+    font-size: 70px;
 }
 
 
@@ -12,4 +26,65 @@ h1 {
 #tanta {
     color: blue;
     font-weight: bold;
+}
+
+/* menu bar on the top */
+.bar {
+    color: rgb(1, 1, 20);
+    font-size: 25px;
+    font-weight: bold; 
+    text-align: center;
+    margin: 1px;
+    background: brown;
+    height: 50px;
+   
+}
+
+.bar ul {
+    display: inline-flex;
+    list-style: none;
+    margin: 0px;
+    
+    
+    
+}
+
+
+.bar ul li {
+
+    width: 180px;
+    margin: 0px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    height: 50px;
+    text-align: center;
+    
+}
+
+.bar ul li:hover {
+    background: chartreuse
+}
+/* menu1 (services) */
+
+.menu1 {
+    display: none;
+    
+}
+
+.bar ul li:hover .menu1 {
+    display: block;
+    background:chartreuse;
+    position: absolute;
+    margin-top: 13px;
+    
+} 
+
+.bar ul li:hover .menu1 ul
+{
+    display: block;
+    
+}
+
+.menu1 ul li:hover {
+    background: rgb(184, 108, 8);
 }
