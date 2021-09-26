@@ -80,6 +80,16 @@ h1:hover {
     
 } 
 
+
+.bar ul li .menu1 {
+    display: block;
+    background:rgb(26, 8, 73);
+    position: absolute;
+    margin-top: 13px;
+
+
+
+
 .bar ul li:hover .menu1 ul
 {
     display: block;
