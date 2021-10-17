@@ -39,14 +39,14 @@
       
     
     const inputEl = document.querySelector('#input') ;
-    const btn = document.getElementById('click') ;
+    
     
     
     
 
     function hob() {
         
-        if(inputEl.value == 'engy' || inputEl.value == 'gege'  || inputEl.value == 'Engy' || inputEl.value == 'anoji' || inputEl.value == 'anogi' ||inputEl.value == 'ingy' || inputEl.value == 'Enge' || inputEl.value == 'Anogy' || inputEl.value == 'Mona' || inputEl.value == 'Gege'   ) {
+        if(inputEl.value.toLowerCase() == 'engy' || inputEl.value.toLowerCase() == 'gege'  || inputEl.value == 'Engy' || inputEl.value == 'anoji' || inputEl.value == 'anogi' ||inputEl.value == 'ingy' || inputEl.value == 'Enge' || inputEl.value == 'Anogy' || inputEl.value == 'Mona' || inputEl.value == 'gege'   ) {
             document.querySelector('#no').style.display = 'none' ;
             document.querySelector('#engy').textContent = `${inputEl.value.toUpperCase()}  Take 🧡`
             document.querySelector('#engy').style.display = 'block' ; 

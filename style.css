@@ -1,7 +1,8 @@
 * {
     box-sizing: border-box;
     padding: 0px;
-    
+    margin: 0px;
+    text-align: right;
 }
 
 
@@ -94,4 +95,75 @@ h1:hover {
 
 .menu1 ul li:hover {
     background: chartreuse;
+}
+
+.div1 {
+
+    font-size: 30px;
+    color: aliceblue;
+    background: rgb(0, 0, 51);
+    text-align: center;
+    width: 1500px ;
+    background-size: cover;
+    background-repeat: repeat-x;
+    width: ;
+ }
+
+.div1 ul {
+    display: inline-flex;
+    list-style: none;
+    
+}
+
+.div1 ul li {
+    width: 150px ;
+    margin: 10px;
+    padding: 0px;
+    
+}
+/*  Bmenu */
+.bmenu1 {
+    display: none;
+    width: 150px;
+    text-align: center;
+
+}
+.bmenu1 ul{
+    width: 150px;
+    
+}
+
+.bmenu1 ul li {
+    width: auto;
+    text-align: left;
+    
+    padding: 1px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+/*  div */
+.div1 ul li:hover .bmenu1 {
+    display: block;
+    position: absolute;
+    background: rgb(0, 0, 51);
+    
+}
+
+.div1 ul li:hover .bmenu1 ul {
+    display: block;
+    width: 150px;
+   
+  
+}
+
+
+li:hover {
+background: rgb(138, 104, 104) ;
+
+}
+.div1 ul li:hover .bmenu1 ul li {
+    border-bottom: 1px dotted rosybrown;
+    width: 125px;
 }

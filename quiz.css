@@ -1,0 +1,57 @@
+
+
+
+
+body{
+   background-color: rgb(209, 209, 209);
+}
+
+
+
+
+div {
+    font-size: 20px;
+}
+
+div p {
+    color: blue;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.div1 {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.qdiv {
+    margin-top: 60px;
+}
+
+
+
+
+button {
+    width: 150px;
+    height: 40px;
+    margin-left: 400px;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: red;
+    margin-bottom: 30px;
+}
+
+.displaynone {
+display: none;
+text-align: center;
+}
+
+
+#hiddenh1 {
+    text-align: center;
+}
+
+
+h1 {
+    text-align: center;
+}
