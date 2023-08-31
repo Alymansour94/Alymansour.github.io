@@ -11,7 +11,7 @@ function cong() {
     firstdiv.style.display='none'
     hbd.style.display='none'
 
-    if(day.value == "7"  && month.value == "dec" && year.value=="1999") {
+    if(day.value == "5"  && month.value == "may" && year.value=="2000") {
         
        
         hbde.style.display='block'
